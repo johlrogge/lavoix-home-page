@@ -1,0 +1,48 @@
+<html>
+<head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link rel="stylesheet" href="#link('/css/blueprint/screen.css')" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="#link('/css/blueprint/print.css')" type="text/css" media="print">	
+	<!--[if IE]>
+        <link rel="stylesheet" href="#link('/css/blueprint/ie.css')" type="text/css" media="screen, projection">
+        <![endif]-->
+	<link rel="stylesheet" href="#link('/css/style.css')"
+type="text/css" media="screen"/>
+        <script type="text/javascript" src="#link('/lib/jquery.js')"></script>
+        <script type="text/javascript" src="#link('/lib/style.js')"></script>
+</head>
+<body>
+<div class="container">   
+    <div id="header" class="span-24 last">
+         #parse('/templates/navigation.vm')
+    </div>
+    <div id="bg" class="span-24 last">
+          <div id="content" class="prepend-2 span-15">
+	  $entity.asHtml()
+     	  </div>
+	  <div id="sidebar" class="span-5 append-2 last">
+	    #if($language)
+	    <table>
+	    <tr><th>
+	    #if($language == "sv")
+	      Kontakta oss
+	    #else
+	      Contact
+	    #end
+	    </th></tr>
+	    <tr><td>Jelena Vencl Ohlrogge</td></tr>
+	    <tr><td>08-265125</td></tr>
+	    <tr><td>0702-776769</td></tr>
+	    <tr><td>NOSPAM-info@lavoixcats.se<br/><em>#if($language == "sv")(ta
+	      bort NOSPAM- från mailaddressen först)#else(remove NOSPAM- from the email address first)#end</em></td></tr>
+	    <tr><td><a href="#link('http://cats.jelenaandjoakim.eu/')">blog</a>
+	    </table>
+	    #end
+	  </div>
+     </div>
+
+     <div id="footer" class="span-24 last">
+     </div>
+</div>
+</body>
+</html>

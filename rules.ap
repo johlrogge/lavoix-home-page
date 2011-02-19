@@ -1,0 +1,3 @@
+layout sv/*.wiki with /templates/sv/default.vm
+layout en/*.wiki with /templates/en/default.vm
+layout *.wiki with /templates/default.vm

@@ -1,0 +1,25 @@
+<html>
+<head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="#link('/css/blueprint/screen.css')" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="#link('/css/blueprint/print.css')" type="text/css" media="print">	
+	<!--[if lt IE 8]><link rel="stylesheet" href="#link('/css/blueprint/ie.css')" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="#link('/css/style.css')" type="text/css" media="screen"/>
+</head>
+<body>
+<div class="container">   
+     <div id="header" class="prepend-2 span-22">
+     </div>
+     <div id="bg" class="span-24">
+     	  <div id="content" class="prepend-2 span-14 append-1">
+	  $entity.asHtml()
+     	  </div>
+	  <div id="sidebar" class="span-5 append-2 last">
+	  </div>
+     </div>
+
+     <div id="footer" class="span-24">
+     </div>
+</div>
+</body>
+</html>
