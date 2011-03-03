@@ -13,6 +13,9 @@ small ${oc}/jossan
 small ${oc}/leroy
 small ${oc}/maven
 small ${oc}/miii
+medium ${oc}/albert8months_11
+medium ${oc}/albert8months3
+medium ${oc}/2010xmasalbert1
 
 kt=img/kittens
 small ${kt}/siaaf20100627
