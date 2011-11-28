@@ -13,9 +13,11 @@ small ${oc}/jossan
 small ${oc}/leroy
 small ${oc}/maven
 small ${oc}/miii
+small ${oc}/2010xmasalbert1
 medium ${oc}/albert8months_11
 medium ${oc}/albert8months3
 medium ${oc}/2010xmasalbert1
+
 
 kt=img/kittens
 small ${kt}/siaaf20100627
@@ -28,3 +30,9 @@ medium ${kt}/siac1a20100627
 medium ${kt}/siaw67b20100627
 medium ${kt}/siac2a20100627
 medium ${kt}/siaam20100627
+
+medium ${kt}/blitterbelle8weeks
+medium ${kt}/blitterbalthazar8weeks
+medium ${kt}/blitterblanche8weeks
+medium ${kt}/blitterbeatrice8weeks
+

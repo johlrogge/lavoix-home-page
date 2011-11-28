@@ -1,7 +1,7 @@
 <div id="navigation" class="prepend-6 span-17 last">
 #if($language)
 <p>
-#foreach($link in ['home', 'our_cats', 'kittens', 'buy_a_kitten', 'studservice'])<a href="#link("/${language}/${link}.wiki")">${link_target.title.replaceAll(" ", "&nbsp;")}</a>&nbsp;&nbsp;#end
+#foreach($link in ['home', 'kittens', 'news_and_plans', 'our_cats', 'buy_a_kitten'])<a href="#link("/${language}/${link}.wiki")">${link_target.title.replaceAll(" ", "&nbsp;")}</a>&nbsp;&nbsp;#end
 </p>
 #else
  <a href="#link("/sv/home.wiki")">Svenska</a>&nbsp;<a href="#link("/en/home.wiki")">English</a>
